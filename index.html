@@ -9,57 +9,190 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <title>Frontend Mentor | [Challenge Name Here]</title>
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <title>Frontend Mentor | Testimonial-grid</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    Daniel Clifford Verified Graduate I received a job offer mid-course, and the
-    subjects I learned were current, if not more so, in the company I joined. I
-    honestly feel I got every penny’s worth. “ I was an EMT for many years
-    before I joined the bootcamp. I’ve been looking to make a transition and
-    have heard some people who had an amazing experience here. I signed up for
-    the free intro course and found it incredibly fun! I enrolled shortly
-    thereafter. The next 12 weeks was the best - and most grueling - time of my
-    life. Since completing the course, I’ve successfully switched careers,
-    working as a Software Engineer at a VR startup. ” Jonathan Walters Verified
-    Graduate The team was very supportive and kept me motivated “ I started as a
-    total newbie with virtually no coding skills. I now work as a mobile
-    engineer for a big company. This was one of the best investments I’ve made
-    in myself. ” Jeanette Harmon Verified Graduate An overall wonderful and
-    rewarding experience “ Thank you for the wonderful experience! I now have a
-    job I really enjoy, and make a good living while doing something I love. ”
-    Patrick Abrams Verified Graduate Awesome teaching support from TAs who did
-    the bootcamp themselves. Getting guidance from them and learning from their
-    experiences was easy. “ The staff seem genuinely concerned about my progress
-    which I find really refreshing. The program gave me the confidence necessary
-    to be able to go out in the world and present myself as a capable junior
-    developer. The standard is above the rest. You will get the personal
-    attention you need from an incredible community of smart and amazing people.
-    ” Kira Whittle Verified Graduate Such a life-changing experience. Highly
-    recommended! “ Before joining the bootcamp, I’ve never written a line of
-    code. I needed some structure from professionals who can help me learn
-    programming step by step. I was encouraged to enroll by a former student of
-    theirs who can only say wonderful things about the program. The entire
-    curriculum and staff did not disappoint. They were very hands-on and I never
-    had to wait long for assistance. The agile team project, in particular, was
-    outstanding. It took my learning to the next level in a way that no tutorial
-    could ever have. In fact, I’ve often referred to it during interviews as an
-    example of my developent experience. It certainly helped me land a job as a
-    full-stack developer after receiving multiple offers. 100% recommend! ”
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+    <main class="main">
+      <div class="main__inner">
+        <article
+          class="testimony testimony--theme-violet testimony--bg-pattern"
+        >
+          <div class="person">
+            <figure class="person__image">
+              <img
+                class="photo"
+                src="./images/image-daniel.jpg"
+                alt="daniel's photo"
+                width="40"
+                height="40"
+              />
+            </figure>
+            <div class="person__info">
+              <h1 class="person__name m-0">Daniel Clifford</h1>
+              <p class="person__degree m-0">Verified Graduate</p>
+            </div>
+          </div>
+          <div class="testimony__content">
+            <p class="m-0">
+              <strong class="featured-text inline-block">
+                I received a job offer mid-course, and the subjects I learned
+                were current, if not more so, in the company I joined. I
+                honestly feel I got every penny’s worth.
+              </strong>
+              <span class="text inline-block">
+                “ I was an EMT for many years before I joined the bootcamp. I’ve
+                been looking to make a transition and have heard some people who
+                had an amazing experience here. I signed up for the free intro
+                course and found it incredibly fun! I enrolled shortly
+                thereafter. The next 12 weeks was the best - and most grueling -
+                time of my life. Since completing the course, I’ve successfully
+                switched careers, working as a Software Engineer at a VR
+                startup. ”
+              </span>
+            </p>
+          </div>
+        </article>
+        <article class="testimony testimony--theme-grayish-blue">
+          <div class="person">
+            <figure class="person__image">
+              <img
+                class="photo"
+                src="./images/image-jonathan.jpg"
+                alt="Jonathan's photo"
+                width="40"
+                height="40"
+              />
+            </figure>
+            <div class="person__info">
+              <h2 class="person__name m-0">Jonathan Walters</h2>
+              <p class="person__degree m-0">Verified Graduate</p>
+            </div>
+          </div>
+          <div class="testimony__content">
+            <p class="m-0">
+              <strong class="featured-text inline-block">
+                The team was very supportive and kept me motivated
+              </strong>
+              <span class="text inline-block pr-0">
+                “ I started as a total newbie with virtually no coding skills. I
+                now work as a mobile engineer for a big company. This was one of
+                the best investments I’ve made in myself. ”
+              </span>
+            </p>
+          </div>
+        </article>
+        <article class="testimony testimony--theme-white">
+          <div class="person">
+            <figure class="person__image">
+              <img
+                class="photo"
+                src="./images/image-jeanette.jpg"
+                alt="Jeanette's photo"
+                width="40"
+                height="40"
+              />
+            </figure>
+            <div class="person__info">
+              <h2 class="person__name m-0">Jeanette Harmon</h2>
+              <p class="person__degree m-0">Verified Graduate</p>
+            </div>
+          </div>
+          <div class="testimony__content">
+            <p class="m-0">
+              <strong class="featured-text inline-block">
+                An overall wonderful and rewarding experience
+              </strong>
+              <span class="text inline-block">
+                “ Thank you for the wonderful experience! I now have a job I
+                really enjoy, and make a good living while doing something I
+                love.”
+              </span>
+            </p>
+          </div>
+        </article>
+        <article class="testimony testimony--theme-blackish-blue">
+          <div class="person">
+            <figure class="person__image">
+              <img
+                class="photo"
+                src="./images/image-patrick.jpg"
+                alt="Patrick's photo"
+                width="40"
+                height="40"
+              />
+            </figure>
+            <div class="person__info">
+              <h2 class="person__name m-0">Patrick Abrams</h2>
+              <p class="person__degree m-0">Verified Graduate</p>
+            </div>
+          </div>
+          <div class="testimony__content">
+            <p class="m-0">
+              <strong class="featured-text inline-block">
+                Awesome teaching support from TAs who did the bootcamp
+                themselves. Getting guidance from them and learning from their
+                experiences was easy.
+              </strong>
+              <span class="text inline-block">
+                “ The staff seem genuinely concerned about my progress which I
+                find really refreshing. The program gave me the confidence
+                necessary to be able to go out in the world and present myself
+                as a capable junior developer. The standard is above the rest.
+                You will get the personal attention you need from an incredible
+                community of smart and amazing people. ”
+              </span>
+            </p>
+          </div>
+        </article>
+        <article class="testimony testimony--theme-white">
+          <div class="person">
+            <figure class="person__image">
+              <img
+                class="photo"
+                src="./images/image-kira.jpg"
+                alt="Kira's photo"
+                width="40"
+                height="40"
+              />
+            </figure>
+            <div class="person__info">
+              <h2 class="person__name m-0">Kira Whittle</h2>
+              <p class="person__degree m-0">Verified Graduate</p>
+            </div>
+          </div>
+          <div class="testimony__content">
+            <p class="m-0">
+              <strong class="featured-text inline-block pr-0">
+                Such a life-changing experience. Highly recommended!
+              </strong>
+              <span class="text inline-block">
+                “Before joining the bootcamp, I’ve never written a line of code.
+                I needed some structure from professionals who can help me learn
+                programming step by step. I was encouraged to enroll by a former
+                student of theirs who can only say wonderful things about the
+                program. The entire curriculum and staff did not disappoint.
+                They were very hands-on and I never had to wait long for
+                assistance. The agile team project, in particular, was
+                outstanding. It took my learning to the next level in a way that
+                no tutorial could ever have. In fact, I’ve often referred to it
+                during interviews as an example of my developent experience. It
+                certainly helped me land a job as a full-stack developer after
+                receiving multiple offers. 100% recommend! ”
+              </span>
+            </p>
+          </div>
+        </article>
+      </div>
+      <footer class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.twitter.com/luismacode" target="_blank"
+          >Luis Machaca</a
+        >.
+      </footer>
+    </main>
   </body>
 </html>

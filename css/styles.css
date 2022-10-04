@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url(../fonts/BarlowSemiCondensed-Medium.woff) format('woff'),
+         url(../fonts/BarlowSemiCondensed-Medium.woff2) format('woff2');
+    font-display: swap;
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url(../fonts/BarlowSemiCondensed-SemiBold.woff) format('woff'),
+         url(../fonts/BarlowSemiCondensed-SemiBold.woff2) format('woff2');
+    font-display: swap;
+    font-style: normal;
+    font-weight: 600;
+}
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    font-size: 1.3rem;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Barlow Semi Condensed',sans-serif;
+}
+
+.inline-block{
+    display: inline-block;
+}
+.m-0{
+    margin: 0;  
+}
+.pr-0{
+    padding-right: 0;
+}
+
+:root{
+    --moderate-violet: hsl(263, 55%, 52%);
+    --very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --very-dark-blackish-blue: hsl(219, 29%, 14%);
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(0, 0%, 81%);
+    --light-grayish-blue: hsl(210, 46%, 95%);
+}
+.main{
+    background-color: var(--light-grayish-blue);
+}
+.main__inner{
+    width: calc( 100% - 4rem );
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 6em;
+    padding-bottom: 4em;
+}
+.testimony{
+    --bg-current:transparent;
+    background-color: var(--bg-current);
+    --color-current:var(--white);
+    color: var(--color-current);
+    padding: 1.5em 2em;
+    margin-bottom: 2em;
+    border-radius: .7em;
+}
+.testimony--theme-violet{
+    --bg-current:var(--moderate-violet);
+}
+.testimony--theme-grayish-blue{
+    --bg-current:var(--very-dark-grayish-blue);
+}
+.testimony--theme-blackish-blue{
+    --bg-current:var(--very-dark-blackish-blue);
+}
+.testimony--theme-white{
+    --bg-current:var(--white);
+    --color-current:var(--very-dark-blackish-blue);
+}
+.testimony--bg-pattern{
+    background: url(../images/bg-pattern-quotation.svg) 90% 0 / 12.3rem no-repeat var(--bg-current);
+}
+
+.person{
+    display: flex;
+    align-items: center;
+}
+.person__image{
+    margin-left: 0;
+    margin-right: .8em;
+}
+.photo{
+    border-radius: 100%;
+    outline: 2px solid var(--white);
+}
+.person__info{
+    margin-left: .5em;
+}
+.person__name{
+    font-size: 1.4rem;
+}
+.person__degree{
+    font-size: 1.2rem;
+    opacity: 50%;
+}
+
+.testimony__content{
+    padding-top: .5em;
+}
+.featured-text{
+    font-size: 2rem;
+    padding-right: 1.1em;
+}
+.text{
+    padding-top: 1.5em;
+    padding-right: 2.5em;
+    padding-bottom: 1em;
+    color: var(--light-gray);
+}
+
+.attribution{
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+}
