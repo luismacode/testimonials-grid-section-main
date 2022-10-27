@@ -14,7 +14,6 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -26,13 +25,13 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot-mobile](./screenshot.jpg)
-![screenshot-desktop](./screenshot.jpg)
+![screenshot-mobile](./screenshots/testimonials-mobile.jpeg)
+![screenshot-desktop](./screenshots/testimonials-desktop.jpeg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution](https://your-solution-url.com)
+- Live Site URL: [live site](https://your-live-site-url.com)
 
 ## My process
 
@@ -48,14 +47,24 @@ Users should be able to:
 
 ### What I learned
 
+- With the solution of this challenge I was able to consolidate my knowledge in CSS and HTML.
+
 ### Continued development
 
+- In the future you could improve and expand this challenge using SASS.It would be a way to consolidate my base knowledge in SASS and take into account good practices  and recommended architecture.
+
 ### Useful resources
+
+- [grid-layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) - MDN documentation that was useful to me to understand and apply grid to this challenge.
+
+- [calc-css](https://developer.mozilla.org/es/docs/Web/CSS/calc) - This article helped me to know the calc function
+
+- [nth-of-type-css](https://css-tricks.com/almanac/selectors/n/nth-of-type/) - This article helped me to know several uses for nth-of-type in css
+
+- [css-variables](https://www.freecodecamp.org/news/everything-you-need-to-know-about-css-variables-c74d922ea855) - The content of this blog helped me to know other forms of use, that I did not know, about css variables.
 
 ## Author
 
 - Linkedin - [luismachaca](https://www.linkedin.com/in/luismachaca)
 - Frontend Mentor - [@luismacode](https://www.frontendmentor.io/profile/luismacode)
 - Twitter - [@luismacode](https://www.twitter.com/luismacode)
-
-## Acknowledgments
